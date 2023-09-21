@@ -1,0 +1,9 @@
+.Hero-section{
+    background-color: hsl(198, 69%, 93%);
+    align-items: center;
+    justify-content: center;
+}
+.Hero-section-two{
+    border-radius: 20px;
+    align-items:start;
+}
