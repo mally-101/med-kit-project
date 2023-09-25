@@ -1,9 +1,104 @@
-.Hero-section{
-    background-color: hsl(198, 69%, 93%);
-    align-items: center;
-    justify-content: center;
+.form-section{
+    background-color: aqua;
 }
-.Hero-section-two{
-    border-radius: 20px;
-    align-items:start;
+
+.sec{
+    background-color:rgb(203, 222, 245)  ;
+    height: 800px;
+    padding-top: 7rem;
+}
+.one{
+    background-color: white;
+    height: 633px;
+    width: 1200px;
+    margin: auto;
+    padding: auto;
+    color: rgb(52, 52, 137);
+    
+}
+.sec img{
+    width: 619px;
+    height: 633px;
+    /* display: block; */
+}
+.two{
+    padding-bottom: 1rem;
+}
+.shift{
+    padding-left: 2rem;
+}
+.shift h3{
+    padding-left: 9rem;
+}
+.nat{
+    margin-top: 4rem;
+}
+.two input{
+    height: 3rem;
+    width: 28rem;
+    color: rgb(67, 67, 180);
+}
+.two button{
+    background-color: rgb(154, 154, 244);
+    height: 3rem;
+    width: 10rem;
+    font-size: x-large;
+    margin-left: 8rem;
+}
+
+.last{
+    background-color: rgb(52, 52, 137) ;
+    height: 489px;
+    padding-top: 5rem;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 430px){
+  .sec{
+    background-color:rgb(203, 222, 245)  ;
+    height: 1100px;
+    overflow: hidden;
+
+  }  
+
+  .one{
+    background-color: white;
+    height: 885px;
+    width: 350px;
+    color: rgb(52, 52, 137);
+    padding: auto;
+  }
+  .sec h3{
+    padding-right: 2rem, 2rem;
+  }
+  .sec img{
+    width: 330px;
+    height: 400px;
+     margin: 1rem, 1rem;
+     padding: 1rem, 1rem;
+
+  }
+  .two input{
+    height: 3rem;
+    width: 15rem;
+    margin-left: 3rem;
+    color: rgb(67, 67, 180);
+}
+.sec button{
+    margin: auto;
+    padding: auto;
+    margin-left: 5rem;
+}
+.last{
+    background-color: rgb(52, 52, 137) ;
+    height: 1100px;
+    padding-top: 5rem;
+    cursor: pointer;
+
+}
+
+
+
 }
